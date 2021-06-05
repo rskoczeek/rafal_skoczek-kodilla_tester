@@ -1,6 +1,6 @@
 public class LeapYear {
     public static void main(String[] args) {
-        int rok = 1883 ;
+        int rok = 2400 ;
         int a = 4;
         int b = 100;
         int c = 400;
