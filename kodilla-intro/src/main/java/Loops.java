@@ -15,10 +15,16 @@ public class Loops {
             System.out.println(imie);
         }
 
+        System.out.println("\n" + "suma wszystkich elementów tablicy");
 
+        int[] przychody = new int[]{344, 566, 2039, 3045, 123};
+        int sum = 0;
+        for (int d = 0; d < przychody.length; d++) {
 
+            sum = sum + przychody[d];
 
-
+        }
+        System.out.println(sum);
 
     }
     }

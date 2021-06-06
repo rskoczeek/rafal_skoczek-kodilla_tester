@@ -16,5 +16,11 @@ public class SimpleArray {
 
             System.out.println("Moja tablica zawiera " + numberOfElements + " elementów");
 
+            System.out.println("\n" + "wyświetlanie elementów tablicy od końca:"+ "\n");
+
+            for (int i = lektury.length - 1; i >= 0; i--) {
+                System.out.println(lektury[i]);
+            }
+
         }
 }
