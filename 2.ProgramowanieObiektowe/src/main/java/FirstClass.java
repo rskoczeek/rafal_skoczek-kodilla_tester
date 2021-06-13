@@ -4,12 +4,7 @@ public class FirstClass {
         Notebook notebook = new Notebook("600g", 1200, 600, 2021);
             System.out.println(notebook.weight);
             System.out.println(notebook.price + " PLN");
-        if (notebook.price > 900) {
-            System.out.println("This notebook is quite expensive.");
-        }
-        else {
-            System.out.println("This notebook is cheap.");
-        }
+        notebook.checkPrice();
         notebook.checkWeight2();
         notebook.rekomendacja();
 
