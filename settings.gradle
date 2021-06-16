@@ -2,4 +2,8 @@ rootProject.name = 'kodilla-course'
 include 'kodilla-intro'
 include 'kodilla-intro'
 include 'HelloWorld'
+include 'JAVA ĆWICZENIA'
+include 'test'
+include '2.ProgramowanieObiektowe'
+include 'ćwiczenia'
 
