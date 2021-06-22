@@ -35,3 +35,4 @@ public class Grades {
         return sum / grades.length;
     }
 }
+/* komentarz dla dodania nowego pull requesta */
