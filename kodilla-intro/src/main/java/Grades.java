@@ -23,16 +23,16 @@ public class Grades {
         return this.grades[this.size - 1];
     }
 
-        double sum = 0;
-        for (int suma: grades) {
 
-            sum += suma;
-        }
     public double getAverageGrade () {
         if (size == 0) {
             return 0;
         }
+        double sum = 0;
+        for (int grade : grades) {
+            sum += grade;
+        }
         return sum / grades.length;
     }
 }
-/* komentarz dla dodania nowego pull requesta */
+
