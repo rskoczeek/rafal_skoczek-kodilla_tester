@@ -3,14 +3,14 @@ public class UserApp {
     public static void main(String[] args) {
 
         User bartek = new User("Bartek", 24);
-        User zofia = new User("Zofia", 35);
+        User zofia = new User("Zofia", 15);
         User kasia = new User("Kasia", 19);
         User piotr = new User("Piotr", 44);
-        User zbyszek = new User("Zbyszek", 55);
+        User zbyszek = new User("Zbyszek", 25);
         User[] users = {bartek, zofia, kasia, piotr, zbyszek};
 
-        System.out.println(getAvarageAge(users));
-        System.out.println(getUsersUnderAvarage(users));
+        printUsersUnderAverage(users);
+
     }
 
 
@@ -22,15 +22,16 @@ public class UserApp {
         return result / users.length;
     }
 
-    public static String getUsersUnderAvarage(User[] users) {
+    public static void printUsersUnderAverage(User[] users) {
+        double averageAge = getAvarageAge(users);
         for (int i = 0; i < users.length; i++) {
-            if (getAvarageAge() > users[i].getAge()) {
-            return users[i].getName();
+            if (users[i].getAge() < averageAge) {
+                System.out.println(users[i].getName());
             }
         }
     }
 
-
+}
 
 
 
