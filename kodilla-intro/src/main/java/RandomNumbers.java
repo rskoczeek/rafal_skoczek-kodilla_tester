@@ -6,7 +6,7 @@ class RandomNumbers {
     private int min = Integer.MAX_VALUE;
     private int max = Integer.MAX_VALUE;
 
-    public void draw()
+    public void draw() {
         int sum = 0;
         int actual;
         while (sum < 5000) {
