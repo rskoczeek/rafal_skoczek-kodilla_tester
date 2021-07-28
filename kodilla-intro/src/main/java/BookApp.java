@@ -1,7 +1,8 @@
 public class BookApp {
     public static void main(String[] args) {
-        String book = "Book of " + Book.author() + ", " + Book.title();
-
+        Book book = Book.of("Sienkiewicz", "Ogniem i mieczem");
+        Book biblia = Book.of("Bibilia");
+        System.out.println(biblia);
         System.out.println(book);
     }
 }
