@@ -1,3 +1,5 @@
+package com.kodilla.intro;
+
 public class UserApp {
 
     public static void main(String[] args) {
@@ -21,7 +23,7 @@ public class UserApp {
         }
         return result / users.length;
     }
-  /*  public static String getUsersUnderAvarage(User[] users) {
+  /*  public static String getUsersUnderAvarage(com.kodilla.intro.User[] users) {
         for (int i = 0; i < users.length; i++) {
             if (getAvarageAge() > users[i].getAge(users)) {
                 return users[i].getName();

@@ -1,3 +1,5 @@
+package com.kodilla.intro;
+
 public class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello World!\n" + "Rafal Skoczek\n" + "30 lat\n" + "07.10.1990\n");

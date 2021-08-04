@@ -1,3 +1,5 @@
+package com.kodilla.intro;
+
 import java.util.Scanner;
 public class Book {
     public static String author() {
@@ -22,7 +24,7 @@ public class Book {
         }
     }
     public static void main(String[] args) {
-        String book = "Book of " + Book.author() + ", " + Book.title();
+        String book = "com.kodilla.intro.Book of " + Book.author() + ", " + Book.title();
 
         System.out.println(book);
     }
