@@ -1,3 +1,5 @@
+package com.kodilla.intro;
+
 public class SimpleArray {
         public static void main(String[] args) {
 

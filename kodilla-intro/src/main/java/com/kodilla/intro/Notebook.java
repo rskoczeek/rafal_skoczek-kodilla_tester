@@ -1,3 +1,5 @@
+package com.kodilla.intro;
+
 public class Notebook {
     String weight;
     int price;
