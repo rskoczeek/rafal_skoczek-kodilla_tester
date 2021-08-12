@@ -41,4 +41,24 @@ public class UserDialogs {
         int val = scanner.nextInt();
         return val;
     }
+    public static String getUserColor() {
+        Scanner scanner = new Scanner(System.in);
+        while (true) {
+            System.out.println("Select first letter of a color (W, B, R, Y):");
+            String usersColor = scanner.nextLine().trim().toUpperCase();
+            switch (usersColor) {
+                case "W":
+                    return "W";
+                case "B":
+                    return "B";
+                case "R":
+                    return "R";
+                case "Y":
+                    return "Y";
+                default:
+                    System.out.println("Wrong letter. Try again.");
+            }
+        }
+    }
+
 }
