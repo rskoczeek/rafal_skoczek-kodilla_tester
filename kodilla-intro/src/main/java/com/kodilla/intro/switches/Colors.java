@@ -1,4 +1,6 @@
-package com.kodilla.intro.oop;
+package com.kodilla.intro.switches;
+
+import com.kodilla.intro.oop.UserDialogs;
 
 public class Colors {
     public String color() {
