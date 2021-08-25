@@ -1,8 +1,8 @@
 package com.kodilla.inheritance.homework;
 
-public class OperatingSystem3 extends OperatingSystem {
+public class Ios extends OperatingSystem {
 
-    public OperatingSystem3 (int releaseDate) {
+    public Ios(int releaseDate) {
         super(releaseDate);
     }
     @Override

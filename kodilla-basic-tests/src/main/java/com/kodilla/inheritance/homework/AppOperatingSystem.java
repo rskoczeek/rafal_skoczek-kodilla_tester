@@ -9,12 +9,12 @@ public class AppOperatingSystem {
         windows.turnOff();
         windows.displayReleaseDate();
 
-        OperatingSystem2 linux = new OperatingSystem2(2012);
+        Linux linux = new Linux(2012);
         linux.turnOn();
         linux.turnOff();
         linux.displayReleaseDate();
 
-        OperatingSystem3 ios = new OperatingSystem3(2021);
+        Ios ios = new Ios(2021);
         ios.turnOn();
         ios.turnOff();
         ios.displayReleaseDate();

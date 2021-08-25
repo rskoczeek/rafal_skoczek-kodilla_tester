@@ -1,8 +1,8 @@
 package com.kodilla.inheritance.homework;
 
-public class OperatingSystem2 extends OperatingSystem {
+public class Linux extends OperatingSystem {
 
-    public OperatingSystem2 (int releaseDate) {
+    public Linux (int releaseDate) {
         super(releaseDate);
     }
         @Override
