@@ -2,15 +2,26 @@ package com.kodilla.abstracts.homework;
 
 public class Square extends Shape{
 
-    public Square() {super(5, 5, 5,5, 5);}
+    private final double side;
 
-    @Override
-    public void getSurfaceArea() {
-        System.out.println(sideA * sideB);
+    public Square(double side) {
+        this.side = side;
     }
 
     @Override
-    public void getCircuit() {
-        System.out.println(sideA + sideB + sideC + base);
+    public double getSurfaceArea() {
+        return side * side;
+    }
+
+    @Override
+    public double getCircuit() {
+        return side * 4;
+    }
+
+    @Override
+    public String toString() {
+        return "Square{" +
+                "side=" + side +
+                '}';
     }
 }

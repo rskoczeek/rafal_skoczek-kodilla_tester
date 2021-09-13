@@ -2,15 +2,35 @@ package com.kodilla.abstracts.homework;
 
 public class Triangle extends Shape {
 
-    public Triangle() {super (3, 5, 0, 4, 6);}
+    private final double sideA;
+    private final double sideB;
+    private final double base;
+    private final double height;
 
-    @Override
-    public void getSurfaceArea() {
-        System.out.println("Surface area of the triangle is " + (base * height) / 2);
+    public Triangle(double sideA, double sideB, double base, double height) {
+        this.sideA = sideA;
+        this.sideB = sideB;
+        this.base = base;
+        this.height = height;
     }
 
     @Override
-    public void getCircuit() {
-        System.out.println("Circuit of the triangle is " + (sideA + sideB + base));
+    public double getSurfaceArea() {
+       return base * height / 2;
+    }
+
+    @Override
+    public double getCircuit() {
+        return sideA + sideB + base;
+    }
+
+    @Override
+    public String toString() {
+        return "Triangle{" +
+                "sideA=" + sideA +
+                ", sideB=" + sideB +
+                ", base=" + base +
+                ", height=" + height +
+                '}';
     }
 }
