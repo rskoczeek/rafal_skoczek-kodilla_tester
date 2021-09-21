@@ -22,6 +22,7 @@ public class Application {
             System.out.println("Metoda działa poprawnie dla liczb " + a + " i " + b);
         }
 
+
         boolean correct = ResultChecker.assertEquals(13, sumResult);
         if (correct) {
             System.out.println("Metoda działa poprawnie dla liczb " + a + " i " + b);
