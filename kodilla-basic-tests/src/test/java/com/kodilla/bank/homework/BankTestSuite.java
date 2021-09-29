@@ -7,12 +7,6 @@ public class BankTestSuite {
     @Test
 
     public void ShouldCalculateBalance() {
-        Bank bankomat1 = new Bank("bankomat1");
-        bankomat1.addTransaction(1000.50);
-
-
-
-
 
     }
 
